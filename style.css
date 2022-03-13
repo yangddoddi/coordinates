@@ -1,0 +1,43 @@
+body,
+html {
+  background-color: black;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.pointer {
+  width: 80px;
+}
+
+.pointerContainer {
+  position: relative;
+  height: 120%;
+  top: 100px;
+  transform: translate(-40px, -40px);
+}
+
+.horizontaLine {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 120%;
+  height: 1px;
+  background-color: white;
+}
+
+.verticalLine {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  height: 100%;
+  width: 1px;
+  background-color: white;
+}
+
+.coordinates {
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 60px;
+}
