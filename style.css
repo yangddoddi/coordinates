@@ -9,14 +9,13 @@ html {
 .pointer {
   width: 80px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40px, -40px);
+  top: 0px;
+  left: 0px;
 }
 
 .horizontaLine {
   position: absolute;
-  top: 50%;
+  top: 0px;
   width: 100%;
   height: 1px;
   background-color: white;
@@ -25,7 +24,7 @@ html {
 .verticalLine {
   position: absolute;
   top: 0px;
-  left: 50%;
+  left: 0px;
   height: 100%;
   width: 1px;
   background-color: white;
@@ -34,7 +33,6 @@ html {
 .coordinates {
   position: absolute;
   color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(30px, 0px);
+  top: 0px;
+  left: 0px;
 }
